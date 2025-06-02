@@ -1,9 +1,9 @@
-public class NoshtenBachkator extends Bachkator
+public class NightWorker extends Worker
 {
 
     public double Bonus;
 
-    public NoshtenBachkator(String name, double payment,int hours)
+    public NightWorker(String name, double payment,int hours)
     {
 
         super(name,payment,hours);
@@ -17,7 +17,7 @@ public class NoshtenBachkator extends Bachkator
 
         super.GetInfo();
 
-        System.out.print(", noshtna smqna, bonus: "+this.Bonus);
+        System.out.print(", night shift, bonus: "+this.Bonus);
 
     }
 
