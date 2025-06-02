@@ -1,7 +1,7 @@
-public class DnevenBachkator extends Bachkator
+public class DayWorker extends Bachkator
 {
 
-    public DnevenBachkator(String name, double payment,int hours)
+    public DayWorker(String name, double payment,int hours)
     {
 
         super(name,payment,hours);
