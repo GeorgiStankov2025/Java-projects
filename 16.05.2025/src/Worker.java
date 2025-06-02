@@ -1,4 +1,4 @@
-public class Workse
+public class Worker
 {
 
     protected String WorkerName;
