@@ -44,7 +44,7 @@ public class Product
 
         this.ProductPrice *= this.Quantity;
 
-        System.out.println("Общата цена с избраното количество: "+this.ProductPrice +" евро!");
+        System.out.println("Total price: "+this.ProductPrice +" euros!");
 
     }
 
@@ -53,7 +53,7 @@ public class Product
 
         this.ProductPrice=this.ProductPrice-0.10*this.ProductPrice;
 
-        System.out.println("Общата цена с избраното количество: "+this.ProductPrice+" евро!");
+        System.out.println("Total price with discount: "+this.ProductPrice+" euros!");
 
     }
 
