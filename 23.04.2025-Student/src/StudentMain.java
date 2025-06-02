@@ -3,7 +3,7 @@ public class StudentMain {
     public static void main(String[] args) {
 
 
-      Student stu1=new Student("Georgi Stankov","2401561053");
+      Student stu1=new Student("George","240");
 
         stu1.AddGrade(3);
 
@@ -15,7 +15,7 @@ public class StudentMain {
 
         stu1.AverageGrade();
 
-        Student stu2=new Student("Ani Genova","2401561043");
+        Student stu2=new Student("Ivan","245");
 
         stu2.AddGrade(5);
 
