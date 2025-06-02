@@ -4,7 +4,7 @@ public class BankAccountMain
     public static void main(String[] args)
     {
 
-        BankAccount goshov= new BankAccount("Georgi Stankov", 4000);
+        BankAccount goshov= new BankAccount("Jon Adams", 4000);
 
         goshov.Info();
 
