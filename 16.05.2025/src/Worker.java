@@ -1,17 +1,17 @@
-public class Bachkator
+public class Workse
 {
 
-    protected String BachkatorName;
+    protected String WorkerName;
 
     protected double PayPerHour;
 
     protected int HoursWorked;
 
 
-    public Bachkator(String name,double pay,int hours)
+    public Worker(String name,double pay,int hours)
     {
 
-        this.BachkatorName=name;
+        this.WorkerName=name;
 
         if(pay>0&&hours>0)
         {
@@ -56,7 +56,7 @@ public class Bachkator
     public void GetInfo()
     {
 
-        System.out.print(this.BachkatorName+", hours worked: "+this.HoursWorked+", per hour payment: "+this.PayPerHour+", End salary: "+this.PayPerHour*this.HoursWorked);
+        System.out.print(this.WorkerName+", hours worked: "+this.HoursWorked+", per hour payment: "+this.PayPerHour+", End salary: "+this.PayPerHour*this.HoursWorked);
 
     }
 
